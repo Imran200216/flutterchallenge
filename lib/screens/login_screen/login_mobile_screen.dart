@@ -27,19 +27,19 @@ class LoginMobileScreen extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           /// Image
-          Container(
-            width: sizeWidth,
-            height: sizeHeight * 0.3, // Set height to half of screen height
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(24),
-              image: const DecorationImage(
-                image: AssetImage("assets/images/jpg/Login-Art.jpg"),
-                fit: BoxFit.cover,
-              ),
-            ),
-          ),
-
-          SizedBox(height: sizeHeight * 0.02),
+          // Container(
+          //   width: sizeWidth,
+          //   height: sizeHeight * 0.3, // Set height to half of screen height
+          //   decoration: BoxDecoration(
+          //     borderRadius: BorderRadius.circular(24),
+          //     image: const DecorationImage(
+          //       image: AssetImage("assets/images/jpg/Login-Art.jpg"),
+          //       fit: BoxFit.cover,
+          //     ),
+          //   ),
+          // ),
+          //
+          // SizedBox(height: sizeHeight * 0.02),
 
           /// Title
           Row(
